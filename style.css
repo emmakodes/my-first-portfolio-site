@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+#About{
+    padding-top: 50px; 
+    background-color: beige; 
+    height: 651px;
+}
+.nav-list {
+  float: right;
+  position: absolute;
+  right: 33px;
+  top: 10px;
+  margin: 0;
+  font-size: 21px;
+}
+.nav-list li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 23px;
+}
+.nav-list li a:link,
+.nav-list li a:visited {
+  text-decoration: none;
+}
+.nav-list li a:hover,
+.nav-list li a:active {
+  border-bottom: 2px solid rgba(0, 0, 255, 0.692);
+}
+.column {
+  background-color: #000;
+  overflow: hidden;
+}
+.column img {
+  width: 335px;
+  height: 258px;
+  opacity: 0.9;
+  transform: scale(1.6);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.column img:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+.column p {
+  text-align: center;
+  padding: auto;
+  color:white;
+}
+.btn-link {
+    border-radius: 14px;
+    border: 2px solid  blue;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: rgb(24, 216, 111);
+    font-weight: 20px;
+}
+.btn-link:link,
+.btn-link:visited{ 
+    text-decoration: none;
+}
+.btn-link:hover,
+.btn-link:visited{ 
+    background-color: blue;
+}
+
+.work-section{
+    margin-top: 0;
+    background-color: aliceblue;
+    height: 610px;
+}
+.my-work {
+  margin-top: 0;
+  list-style: none;
+  width: 100%;
+  padding-left: 10px;
+}
+.my-work li {
+  display: block;
+  width: 25%;
+  float: left;
+}
+.tool{
+    height: 477px;
+}
+.subheading {
+    text-align: center;
+    padding-top: 158px;
+    padding-bottom: 20px;
+ }
+.tool-img{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+}
+.image{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 25%;
+    padding-left: 30px;
+    
+}
+.image img{
+  width: 80px;
+  height: 71px
+}
+
+.footer{
+  background-color:black;
+  height: 172px;
+  width: 100%;
+  margin-top: 40px;
+}
+.social{
+  width: 50%;
+  float: left;
+}
+.social li{
+  list-style: none;
+  display: inline-block;
+  padding-top: 20px;
+}
+.social a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.social-handle{
+  padding-top: 10px;
+  list-style: none;
+  width: 50%;
+  padding-right: 88px;
+}
+.social-handle li{
+  display: inline;
+  float: right;
+  padding: 15px;
+  
+}
+.social-handle li a:link,
+.social-handle li a:visited,
+.social li a:link,
+.social li a:visited{
+  text-decoration: none;
+  transition: color 0.3;
+}
+.social-handle li a:hover,
+.social-handle li a:active,
+.social li a:hover,
+.social li a:active{
+ color: rgb(43, 182, 182);
+}
+.footer p{
+  text-align: center;
+  color: white;
+}
